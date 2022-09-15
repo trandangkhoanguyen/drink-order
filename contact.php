@@ -53,7 +53,7 @@
                 <div class="contact_detail">
                     <p>
                         <b><i class="fas fa-home"></i> Địa chỉ:</b>
-                        Số 123, Đường ABC, Phường Xuân Khánh, Quận Ninh kiều, TP.Cần Thơ
+                        Số 123, Đường ABC, Phường Xuân Khánh, Quận Ninh kiều, Thành phố Cần Thơ
                     </p>
                     <p>
                         <b><i class="fas fa-phone"></i> Đường dây nóng:</b>
