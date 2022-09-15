@@ -18,14 +18,15 @@
         
         $errors = array();
         if($hoten == ''){
-            $errors['hoten']="<div class='text-danger'><b>Chưa nhập họ tên</b></div>";
+            $errors['hoten']="<div class='text-danger'><b>Vui lòng nhập vào họ tên</b></div>";
         }
         if($email == ''){
-            $errors['email']="<div class='text-danger'><b>Chưa nhập email</b></div>";
+            $errors['email']="<div class='text-danger'><b>Vui lòng nhập vào họ tên</b></div>";
         }
         if($matkhau == ''){
-            $errors['matkhau']="<div class='text-danger'><b>Chưa nhập mật khẩu</b></div>";
+            $errors['matkhau']="<div class='text-danger'><b>Quý khách chưa nhập mật khẩu</b></div>";
         }
+        //Da sua
         $sql2 = "SELECT * from khachhang where email='$email'";
         $kq2 = mysqli_query($conn,$sql2);
         $count = mysqli_num_rows($kq2);
