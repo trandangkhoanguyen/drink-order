@@ -2,5 +2,5 @@
     session_start();
     $conn = mysqli_connect('localhost','root','','nuocuong');
     $charset =  mysqli_set_charset($conn, "UTF8");
-// s
+    // da sua chua ffdv
 ?>
